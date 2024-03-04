@@ -1,0 +1,330 @@
+.my-documents-page{
+    background-color: rgb(59,122,178);
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.document-div{
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.my-document{
+    color: aliceblue;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+ 
+}
+.my-document-back{
+    width: 33.33333333%;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    height: 200px;
+}
+.my-document-back2 {
+    border-radius: 15px;
+    background-color: rgb(119,0,29);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid  rgb(211, 42, 84);
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+}
+.my-document-info{
+    color: aliceblue;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+ 
+}
+.my-document-info2{
+    color: #58bbe9;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+ 
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 35px;
+    position: relative;
+    margin-inline-start: 50px;
+}
+.checkbox_inp{
+    appearance: none;
+}
+.checkbox_label{
+    display: flex;
+    font-size: 25px;
+    color: aliceblue;
+ 
+ 
+}
+
+.checkbox_label:before{
+    content: "";
+    width: 65px;
+    height: 36px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 18px;
+    background-color: rgb(255, 0, 0);
+}
+
+.checkbox_label:after{
+    content: "";
+    font-size: 13px;
+    color: blue;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    border-radius: 18px;
+    background-color: rgb(255, 255, 255);
+    transition: background-color .3s, left .3s;
+}
+.checkbox_inp:checked + .checkbox_label:before{
+    background-color: rgb(82, 253, 3);
+}
+.checkbox_inp:checked + .checkbox_label::after{
+    background-color: rgb(255, 255, 255);
+    left:  32px;
+    content: "";
+}
+.classSecret{
+    margin: 0;
+    color: aliceblue;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+
+.toggle_div{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-documents-buttons-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.buttons-div{
+    margin-top: 20px;
+}
+
+
+
+
+.classInv{
+    margin: 0;
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.doc-checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 30px;
+    position: relative;
+ 
+}
+.doc-checkbox_inp{
+    appearance: none;
+}
+.doc-checkbox_label{
+    display: flex;
+    font-size: 25px;
+    color: aliceblue;
+ 
+ 
+}
+
+.doc-checkbox_label:before{
+    content: "";
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 18px;
+    background-color: rgb(255, 255, 255);
+}
+
+.doc-checkbox_label:after{
+    content: "";
+    font-size: 13px;
+    color: blue;
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    left: 3px;
+    top: 3.5px;
+    border-radius: 18px;
+    background-color: rgb(121, 115, 115);
+    transition: background-color .3s, left .3s;
+}
+.doc-checkbox_inp:checked + .doc-checkbox_label:before{
+    background: linear-gradient(to right, #ffffff, #747272);
+}
+.doc-checkbox_inp:checked + .doc-checkbox_label::after{
+    background-color: rgb(255, 255, 255);
+    left:  33px;
+    content: "";
+}
+
+.confirmation-dialog-documents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-800px);
+    background-color: rgb(43,83,7);;
+    padding: 30px;
+    color: #ffffff;
+    border-radius: 40px;
+    border: 2px solid #f50b0b;
+    z-index: 1000; 
+}
+.form-desc{
+    align-items: flex-start;
+    border: 0px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    width: 75%;
+    height: 150px;
+    outline: none;
+
+}
+.upload-button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.confirmation-dialog-documents-upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgb(119, 0, 29);
+    padding: 30px;
+    color: #ffffff;
+    border-radius: 40px;
+    border: 2px solid #f50b0b;
+    z-index: 1000; 
+}
+.radio-secret{
+    transform: scale(1.5);
+    width: 50%;
+}
+.form-radio-div {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Отображаем дочерние элементы в столбец */
+    align-items: center; /* Центрируем элементы по горизонтали */
+}
+  
+.radio-labels {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+  
+.label-radio {
+    margin-bottom: 10px;
+    font-family: Georgia, serif;
+    display: flex;
+    justify-content: center;
+    font-size: 25px; 
+    width: 50%;
+}
+  
+.radio-buttons {
+    display: flex;
+    width: 100%; 
+    margin-top: 5px;
+}
+.label-question{
+    font-size: 20px;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+.label-answer{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    text-align: center;
+    width: 25%;
+}
+.backQuestion{
+    background-color: rgb(100, 0, 29);
+    border-radius: 25px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+}
+.label-for-1-answer{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    text-align: center;
+    width: 100%;
+}
+.radio-for-1-answer{
+    transform: scale(1.5);
+    width: 100%;
+}
+.get_result_test-div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.buttons-dialog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.delete-dialog{
+    margin-inline-end: 20px;
+}

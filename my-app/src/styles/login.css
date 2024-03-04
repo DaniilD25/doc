@@ -1,0 +1,163 @@
+.login-page{
+   background-color:  rgb(59,122,178);
+    background-size: 100% 100%;
+    display: flex;
+    min-height: 100vh;
+}
+.label-auto-div {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-end: 9%;
+}
+.label-auto-div .label-auto {
+    color: #ffffff;
+    font-family: Georgia, serif;
+    font-size: 38px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+}
+
+.label-login-div {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-login {
+    color: #ffffff;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    line-height: normal;
+    text-align: center;
+    top: 0;
+}
+.form-login-div{
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-login{
+    align-items: flex-start;
+    border: 0px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 10px 25px;
+    width: 75%;
+    outline: none;
+}
+.error-2{
+    display: flex;
+    font-family: "Inter-Regular", Helvetica;
+    justify-content: center;
+    align-items: center;
+    color: #ff0000;
+    font-size: 14px;
+}
+.field-error-2 {
+    border: 3px solid #ff0000;
+    background-color: #ffcccc;
+}
+.field-write-2:focus {
+    border: 3px solid #00cc00;
+    background-color: #ffffff;
+}
+.form-password{
+    margin-left: -15px;
+}
+.log-form{
+    background: linear-gradient(to right, #e9795d, #feb47b);
+    margin: auto;
+    margin-top: 7%;
+    border-radius: 15px;
+    border: 3px solid #ffffff;
+}
+.button-login-plogin{
+    background: linear-gradient(to right, #33ffaa, #1799f0);
+    border-radius: 10px;
+    padding: 10px 25px;
+    justify-content: space-around;
+    width: 35%;
+    color: #ffffff;
+    font-family: Georgia, serif;
+    font-size: 100%;
+    border: 0px;
+    transition: background-color 0.9s;
+}
+.button-login-plogin:hover{
+    background: linear-gradient(to right, #ee380b, #d9f00d);
+}
+.button-login-div{
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-register-div{
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-create{
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    text-decoration: underline;
+    margin-left: 1%;
+    font-size: 14px;
+    cursor: pointer;
+}
+.label-button-create{
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 14px;
+}
+.points{
+    color: #f10000;
+}
+.confirmation-dialog-login{
+    position: fixed;
+    top: 50%;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to right, #2011ec, #df1b8d);
+    padding: 30px;
+    color: #ffffff;
+    border-radius: 40px;
+    border: 2px solid #f50b0b;
+    z-index: 1000; 
+}
+.but-ok-div{
+    margin-top: 25px;
+    justify-content: center;
+    display: flex;
+}
+.text-qr-div{
+    margin-top: 5px;
+    justify-content: center;
+    display: flex; 
+}
+.QRPhoto-div{
+    justify-content: center;
+    display: flex; 
+}
+.form-otp{
+    align-items: center;
+    border: 0px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 10px 25px;
+    width: 75%;
+    outline: none;
+}
+
+.form-otp-div{
+    justify-content: center;
+    display: flex; 
+}

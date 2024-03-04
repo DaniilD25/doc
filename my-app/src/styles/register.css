@@ -1,0 +1,119 @@
+.register-page{
+    background-color:  rgb(59,122,178);;
+    background-size: 100% 100%;
+    display: flex;
+    min-height: 100vh;
+}
+.label-registration-div {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-end: 9%;
+}
+.label-registration-div .label-register {
+    color: #ffffff;
+    font-family: Georgia, serif;
+    font-size: 38px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+}
+
+.label-register-div {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-register {
+    color: #ffffff;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    line-height: normal;
+    text-align: center;
+    top: 0;
+}
+.form-register-div{
+    margin-top: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-register{
+    border: 0px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 10px 25px;
+    width: 75%;
+    outline: none;
+}
+.error{
+    display: flex;
+    font-family: "Inter-Regular", Helvetica;
+    justify-content: center;
+    align-items: center;
+    color: #ff0000;
+    font-size: 14px;
+}
+.field-error {
+    border: 3px solid #ff0000;
+    background-color: #ffcccc;
+}
+.field-write:focus {
+    border: 3px solid #00cc00;
+    background-color: #ffffff;
+}
+.eye {
+    width: 35px;
+    cursor: pointer;
+    margin-left: -50px;
+}
+.form-password{
+    margin-left: -15px;
+}
+.reg-form{
+ 
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    margin: auto;
+    margin-top: 7%;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+.button-register{
+    background: linear-gradient(to right, #33ffaa, #1799f0);
+    border-radius: 10px;
+    padding: 10px 25px;
+    justify-content: space-around;
+    width: 50%;
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 100%;
+    border: 0px;
+    transition: background-color 0.9s;
+}
+.button-register:hover{
+    background: linear-gradient(to right, #ee380b, #d9f00d);
+}
+.button-register-div{
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.button-login{
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    text-decoration: underline;
+    margin-left: 1%;
+    font-size: 14px;
+    cursor: pointer;
+}
+.label-button-login{
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 14px;
+}

@@ -1,0 +1,74 @@
+.admin-page{
+    background-size: 100% 100%;
+    display: block;
+    min-height: 100vh;
+}
+.add-button-div{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.confirmation-dialog2{
+    position: fixed;
+    top: 50%;
+    justify-content: center;
+    left: 50%;
+    width: 450px;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to right, #883fdb, #00a2ff);
+    padding: 30px;
+    color: #ffffff;
+    border-radius: 40px;
+    border: 2px solid #f50b0b;
+    z-index: 1000; 
+}
+.field-div{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.element-table{
+    margin-left: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(240, 42, 91);
+}
+.element-table2{
+    margin-left: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(189, 9, 54);
+}
+.table-users{
+    width:60%;
+    background-color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.head-table{
+    background-color: rgb(113, 46, 145);
+    margin-left: 30px;
+    color: aliceblue;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+ 
+}
+.table-div{
+    width: 100%;
+}
+.head-table, .element-table, .element-table2 {
+    border: 2px solid #ddd; /* Цвет и толщина границы */
+}
+.element-table, .element-table2, .head-table {
+    text-align: center; /* Выравнивание текста по центру */
+}
+.but-user{
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
